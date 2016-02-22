@@ -12,6 +12,20 @@
     "type": "git",
     "url": "git+https://github.com/Red-French/node-authentication.git"
   },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true,
+      "jquery": true,
+      "browser": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": 0
+    }
+  },
   "author": "Red French",
   "license": "MIT",
   "bugs": {
